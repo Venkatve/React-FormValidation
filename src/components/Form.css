@@ -1,0 +1,119 @@
+.form-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 200px auto;
+  width: 1000px;
+  border-radius: 10px;
+  height: 600px;
+  position: relative;
+}
+
+.close-btn{
+    position: absolute;
+    top: 2%;
+    right: 3%;
+    z-index: 1;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+}
+.form-content-left{
+    background: linear-gradient(to right, #8360c3, #2ebf91);
+    border-radius: 10px 0 0 10px;
+    position: relative;
+}
+
+.form-img{
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.form-content-right{
+    background: linear-gradient(to right, #232526, #414345);
+    border-radius: 0 10px 10px 0;
+    position: relative;
+}
+
+.form{
+    position: absolute;
+    transform: translate(-50% , -50%);
+    top: 50%;
+    left:50%;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form h1{
+    font-size: 1rem;
+    text-align: start;
+    width: 80%;
+    margin-bottom: 1rem;
+    color: white;
+}
+.form-inputs{
+    width: 80%;
+    margin-bottom: 0.5rem;
+}
+
+.form-inputs p {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    color: red;
+}
+.form-label{
+    display: inline-block;
+    font-size: 0.8rem;
+    margin-bottom: 6px;
+    color: white;
+}
+.form-input{
+    display: block;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 2px;
+    height: 40px;
+    width: 100%;
+    border: none;
+}
+
+.form-input::placeholder{
+    color: grey;
+    font-size: 12px;
+}
+.form-input-btn{
+    background: linear-gradient(to right, #8360c3, #2ebf91);
+    width: 80%;
+    height: 50px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    color: white;
+    font-size: 1.2rem;
+
+}
+
+.form-input-btn:hover{
+    cursor: pointer;
+
+}
+.form-input-login{
+    margin-top: 10px;
+    color: white;
+    width: 80%;
+    text-align: center;
+    font-size: 0.8rem;
+}
+.form-input-login a{
+   text-decoration: none;
+   color: dodgerblue;
+   font-weight: 600;
+}
